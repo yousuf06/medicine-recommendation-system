@@ -1,19 +1,26 @@
 # medicine-recommendation-system
 
-A Python-based medicine recommendation system that suggests medicines either by:
-- **Composition / Name**
-- **Symptoms / Condition**
+A machine learning–based project that recommends medicines either by **composition/name** or **symptoms/condition**.  
+Built with Python and Jupyter Notebook.
 
 ## Features
-- Search by medicine name to find similar medicines.
-- Search by symptoms/condition to get recommended medicines.
+- Search by **medicine name** to find alternatives.
+- Search by **symptoms/condition** to get suggested medicines.
 - Displays:
   - Price
   - Manufacturer
   - Match score
   - Reason (for symptom search)
 
-## How to Run
-1. Install required libraries:
+## How It Works
+1. User inputs either:
+   - A medicine name/composition
+   - Symptoms or condition
+2. System processes the query using similarity matching.
+3. Returns relevant medicine recommendations.
+
+## Installation & Usage
+### Option 1 — Run in Jupyter Notebook
+1. Clone the repository:
 ```bash
-pip install pandas numpy scikit-learn
+git clone https://github.com/YOUR_USERNAME/medicine-recommendation-system.git
